@@ -1,3 +1,21 @@
+## Foundry-DAO
+
+A small DAO example built with Foundry.
+
+This project includes:
+
+- `src/TimeLock.sol` — wrapper around OpenZeppelin `TimelockController`
+- `test/MyGovernorTest.t.sol` — Foundry tests for governance and timelock behavior
+
+## Requirements
+
+- `forge`
+- `anvil`
+
+## Build
+
+```bash
+forge build
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
